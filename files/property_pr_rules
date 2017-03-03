@@ -1,0 +1,11 @@
+[oswindows]
+create = admin
+read = admin
+update = admin
+delete = admin
+
+[.*]
+create = admin,_member_
+read = admin,_member_
+update = admin,_member_
+delete = admin,_member_
